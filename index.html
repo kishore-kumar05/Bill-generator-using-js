@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>billing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1>Bill</h1>
+
+            <div class="sam">
+                <label >Product Name</label>
+                <input type="text" id="get1">
+            </div>
+            <div class="sam">
+                <label >Kg</label>
+                <input type="text" id="get2">
+            </div>
+            <div class="sam">
+                <label >Per. kg</label>
+                <input type="text" id="get3">
+            </div>
+            <div class="sam">
+                <label >Discount</label>
+                <input type="text" id="get4">
+            </div>
+            <button onclick="bill()">Bill</button>
+            
+
+        </div>
+
+        <div class="box2">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <td id="show1"></td>
+                </tr>
+                <tr>
+                    <th>Kg amt</th>
+                    <td id="show2"></td>
+                </tr>
+                <tr>
+                    <th>Discount</th>
+                    <td id="show3"></td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <td id="show4"></td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <button onclick="empty()">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </div>    
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
